@@ -13,7 +13,7 @@ url = ""
 try:
 
 	if len(sys.argv) != 2 :
-		print(" [+] usage : python poc.py <username>")
+		print(" [+] usage : python poc.py <TARGET URL>")
 		print(" [+] Help : poc.py --help or -h")
 	elif sys.argv[1] == '--help' or sys.argv[1] == '-h':
 		print(" [+] This script is created by Xro0T ")
