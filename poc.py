@@ -1,8 +1,10 @@
 #Required modules
-
-import sys
-import urllib.request
-import os
+try:
+	import sys
+	import urllib.request
+	import os
+except:
+	print("[+] module not found [+]")
 
 #url for testing  = http://testphp.vulnweb.com/listproducts.php?cat=1
 
